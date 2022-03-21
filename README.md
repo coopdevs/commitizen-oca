@@ -13,7 +13,7 @@ It's a plugin for [commitizen](https://github.com/commitizen-tools/commitizen) t
 ### Format
 
 ```
-[<type>] scope: <description>
+[<tag>] scope: <description>
 [optional body]
 
 ```
