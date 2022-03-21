@@ -1,38 +1,34 @@
-# commitizen-emoji
+# commitizen-oca
 
-![Console print](img/console.gif)
+WIP.
 
 ## What is it
 
-It's a plugin for [commitizen](https://github.com/commitizen-tools/commitizen) that follows specifications from [conventional commmits](https://www.conventionalcommits.org/en/v1.0.0/).
+It's a plugin for [commitizen](https://github.com/commitizen-tools/commitizen) that follows specifications from [OCA guidelines](https://github.com/OCA/odoo-community.org/blob/master/website/Contribution/CONTRIBUTING.rst#71commit-message).
 
 ### Features
 
-- Emojis 👽
-- Time spent and related tasks
 - All from [commitizen](https://github.com/commitizen-tools/commitizen)
 
 ### Format
 
 ```
-<type>(scope): <description> [Time spent][Related tasks]
-
+[<type>] scope: <description>
 [optional body]
 
 ```
 
 ## Installation
 
-`pip install commitizen-emoji`
 
 ## Usage
 
-`cz --name cz_commitizen_emoji commit`
+`cz --name cz_commitizen_oca commit`
 
 or reduced format:
 
-`cz -n cz_commitizen_emoji c`
+`cz -n cz_commitizen_oca c`
 
 ## Author
 
-Marcelo Maia (mmaia.cc@gmail.com)
+Pelayo García (forked from [commitizen-emoji](https://github.com/marcelomaia/commitizen-emoji) by Marcelo Maia (mmaia.cc@gmail.com) )
